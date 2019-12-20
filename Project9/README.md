@@ -7,8 +7,11 @@ Invoke the program by passing the number of resources of each type on the comman
 2. Define threads for customers.
 3. Declaration request_resources function, release_resources function and safety check function.
 4. In main function:
-a)Check the parameters from command line, if correct, pass to the available resources array.
-b)Initialize mutex
+
+  a)Check the parameters from command line, if correct, pass to the available resources array.
+  
+  b)Initialize mutex
+  
 c)Create Customers’ threads, pass threads to the customerBehaviour function.
 d)Wait and join the threads.
 
